@@ -1,0 +1,114 @@
+Game
+📖 Project Overview
+
+The Word Game is an interactive word-based game built using Node.js.
+It challenges players to guess words within limited attempts while providing visual feedback and engaging gameplay.
+
+Additionally, the repository includes Python prototypes (CLI & GUI versions) for experimentation, testing, and demonstrating alternate implementations.
+
+🚀 Features
+
+Random word selection for each session.
+
+Guess validation with feedback:
+
+🟩 Correct letter & correct position
+
+🟨 Correct letter but wrong position
+
+⬜ Incorrect letter
+
+Score tracking and statistics.
+
+Optional Python CLI with login, registration & admin dashboard.
+
+Python Tkinter GUI version for desktop play.
+
+🛠️ Tech Stack
+
+Primary:
+
+Node.js
+
+npm (package manager)
+
+Supporting (Optional):
+
+Python 3.8+
+
+random, json, tkinter (for Python prototypes)
+
+📂 Repository Structure
+wordgame/
+│── src/                  # Application source code (Node.js)
+│── public/               # Static assets
+│── scripts/              # Python prototypes (CLI & GUI)
+│   │── simple_word_game.py
+│   │── word_game.py
+│   │── word_game_gui.py
+│── package.json          # Node.js dependencies & scripts
+│── game_data.json        # Generated data file (for Python version)
+│── README.md             # Project documentation
+
+⚡ Setup & Run (Main Project)
+1️⃣ Clone the repository
+git clone https://github.com/<organization>/<repository>.git
+cd wordgame
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Start development server
+npm run dev
+
+4️⃣ Access the game
+
+Open your browser at:
+👉 http://localhost:5173
+ (default Vite dev server)
+
+🐍 Python Scripts 
+
+The scripts/ folder contains Python implementations of the Word Game.
+
+Run Instructions
+
+Ensure Python 3.8+ is installed.
+
+Navigate to scripts/.
+
+Run any of the scripts:
+
+# Simple CLI version
+python simple_word_game.py
+
+# Full CLI version (with login, registration & admin dashboard)
+python word_game.py
+
+# GUI version (Tkinter-based desktop game)
+python word_game_gui.py
+
+📈 Future Enhancements
+
+Difficulty levels (Easy/Medium/Hard).
+
+Daily challenge mode.
+
+Multiplayer support.
+
+Leaderboard system.
+
+Database-backed persistence.
+
+🤝 Contribution
+
+Submit all changes via Pull Requests.
+
+Follow company coding and commit standards.
+
+Ensure tests are updated for new features.
+
+📜 License
+
+This project is licensed under [Company Standard License / MIT / Apache 2.0].
+See the LICENSE file for details.
